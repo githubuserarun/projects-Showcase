@@ -1,0 +1,33 @@
+.SelectElement {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.displayContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.FailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #475569;
+}
+.FailureButton {
+  color: white;
+  background-color: #328af2;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
